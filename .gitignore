@@ -1,8 +1,8 @@
 # ignore all . files and . folders
 #/.git
-#/.obsidian
-/.obsidian.mobile/
-!/Stop
+/.obsidian/*
+/.obsidian.mobile/*
+!/.obsidian.mobile/Stop/
 
 555.md
 
@@ -21,3 +21,7 @@
 
 # ИЛИ только для исключения кэша рабочего пространства
 /.obsidian/workspace
+
+
+/ upload / *
+! / upload / index.html
