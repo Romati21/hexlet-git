@@ -2,7 +2,7 @@
 #/.git
 /.obsidian/*
 /.obsidian.mobile/*
-!/.obsidian.mobile/Stop/
+#!/.obsidian.mobile/Stop/
 
 555.md
 
@@ -23,5 +23,5 @@
 /.obsidian/workspace
 
 
-/ upload / *
-! / upload / index.html
+#/upload/*
+#!/upload/index.html
