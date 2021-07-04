@@ -1,7 +1,8 @@
 # ignore all . files and . folders
 #/.git
 #/.obsidian
-/.obsidian.mobile/!Stop
+/.obsidian.mobile/
+!/Stop
 
 555.md
 
