@@ -1,9 +1,21 @@
 # ignore all . files and . folders
-.obsidian-git-data
 #/.git
-/.obsidian
-/.obsidian.mobile
+#/.obsidian
+/.obsidian.mobile/!Stop
 
 
 # Dont ignore .gitignore (this file)
 !/.gitignore
+
+# Добавьте следующие строки для исключения настроек ОС и кэша
+.trash/
+.DS_Store
+
+# Этот файл используется для отслеживания последнего автоматического резервного копирования/вытаскивания
+.obsidian-git-data
+
+# для исключения настроек рабочего пространства Obsidian (включая конфигурации плагинов и горячих клавиш)
+#.obsidian/
+
+# ИЛИ только для исключения кэша рабочего пространства
+/.obsidian/workspace
