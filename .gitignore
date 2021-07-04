@@ -1,2 +1,9 @@
-INFO.md
+# ignore all . files and . folders
+.obsidian-git-data
+#/.git
+/.obsidian
+/.obsidian.mobile
 
+
+# Dont ignore .gitignore (this file)
+!/.gitignore
